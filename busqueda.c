@@ -115,7 +115,6 @@ int main() {
         {0, 0, 0, 0}
     };
 
-    // TODO: Permitir que los estudiantes lean el patrón desde un archivo o definan otro patrón
     buscarPatronFuerzaBruta(img, patron);
     buscarPatronOptimizada(img, patron);
 

@@ -77,7 +77,7 @@ void liberarImagen(Image *img) {
 
 int main() {
     int width = 200, height = 300;
-    Image *img = crearImagen(width, height, 200); // fondo gris claro
+    Image *img = crearImagen(width, height, 0); // fondo gris claro
 
     printf("=== Generador de imagen PGM ===\n");
     printf("Dimensiones: %dx%d\n", width, height);
